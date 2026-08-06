@@ -19,10 +19,42 @@ A Unity Editor script to check for the latest version of the AdMob SDK using Git
 
 ---
 
-## **Setup Instructions**
-1. Download file `CustomMenuAdmob.cs`.
-2. Add the `CustomMenuAdmob.cs` script to your Unity project under the `Editor` folder (`Assets/Editor`).
-3. Ensure your AdMob SDK is installed.
+# Installation
+
+Install the package directly from GitHub using Unity Package Manager.
+
+## Requirements
+
+- Unity **2022.3 LTS** or newer
+- **Google Mobile Ads Unity SDK** already installed
+
+## Install via Git URL
+
+1. Open **Unity**.
+2. Go to **Window → Package Manager**.
+3. Click the **+** button in the top-left corner.
+4. Select **Install package from Git URL...**.
+5. Paste the following URL:
+
+```text
+https://github.com/yashlan/AdMob-SDK-Update-Checker.git?path=/Assets/release
+```
+
+6. Click **Install**.
+
+<div align="center">
+<img src="https://github.com/yashlan/unity-admob-sdk-checker/blob/main/ss/ss_install_package.png" width="700" />
+</div>
+
+## Open the Tool
+
+After installation, open:
+
+```text
+Tools → Check Update AdMob SDK
+```
+
+The tool will automatically detect the installed Google Mobile Ads Unity SDK version and notify you if a newer version is available.
 
 ---
 
@@ -45,5 +77,5 @@ A Unity Editor script to check for the latest version of the AdMob SDK using Git
 The menu name can be changed by modifying the `MenuItem` attribute in this section's script.  
 Here's the code:  
 ```csharp
-[MenuItem("My Menu/Check Update Admob SDK", validate = false, priority = 1)] //line 16 in CustomMenuAdmob.cs script
+[MenuItem("My Menu/Check Update Admob SDK", validate = false, priority = 1)] // path: Assets/release/Editor/CustomMenuAdmob.cs
 
