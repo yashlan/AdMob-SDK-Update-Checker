@@ -42,7 +42,7 @@ https://github.com/yashlan/AdMob-SDK-Update-Checker.git?path=/Assets/release
 
 6. Click **Install**.
 
-<div align="center">
+<div align="left">
 <img src="https://github.com/yashlan/unity-admob-sdk-checker/blob/main/ss/ss_install_package.png" width="700" />
 </div>
 
@@ -55,17 +55,6 @@ Tools → Check Update AdMob SDK
 ```
 
 The tool will automatically detect the installed Google Mobile Ads Unity SDK version and notify you if a newer version is available.
-
----
-
-## **Usage**
-1. Open Unity Editor.
-2. Go to the menu bar and select **My Menu > Check Update Admob SDK** (or the menu name you've chosen in the script).
-3. The script will:
-   - Fetch the latest AdMob SDK version from GitHub.
-   - Compare it with the currently installed version.
-   - Display the result in the Unity console.
-   - If outdated, it shows a confirmation dialog with a link to update.
 
 <img src="https://github.com/yashlan/unity-admob-sdk-checker/blob/main/ss/ss_console.png" width="700" />
 
