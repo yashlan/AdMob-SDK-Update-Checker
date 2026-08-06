@@ -1,6 +1,6 @@
 # **Check AdMob SDK Update for Unity**
 
-A Unity Editor script to check for the latest version of the AdMob SDK using GitHub's API. This tool simplifies the process of ensuring your AdMob SDK is up-to-date by comparing the locally installed version with the latest release on GitHub.
+A Unity Editor plugin that checks whether your Google Mobile Ads (AdMob) Unity SDK is up to date by comparing the installed version with the latest release available on GitHub.
 
 <div align="center">
   <img src="https://github.com/yashlan/unity-admob-sdk-checker/blob/main/ss/ss_confirm_window.png" width="450" />
