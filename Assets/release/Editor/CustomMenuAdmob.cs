@@ -14,7 +14,7 @@ public static class CustomMenuAdmob
     private const string manifestFilePrefix = "GoogleMobileAds_version-"; // Prefix of the manifest file
     private const string manifestFileSuffix = "_manifest"; // Suffix of the manifest file
 
-    [MenuItem("Yashlan/Check Update Admob SDK", validate = false)] //rename it as you want "My Menu/Check Update Admob SDK" if needed
+    [MenuItem("Tools/Check Update Admob SDK", validate = false)] //rename it as you want "My Menu/Check Update Admob SDK" if needed
     private static void CheckUpdateAdmobSDK()
     {
         // Start the asynchronous request to get the latest version from GitHub
