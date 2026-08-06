@@ -9,8 +9,11 @@ public static class ToolsGenerator
     [MenuItem("Tools/Generate package.json")]
     static void Generate()
     {
-        string root = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
-        string packagePath = Path.Combine(root, "package.json");
+        string pluginFolder = "Assets/Admob SDK Update Checker";
+
+        string packagePath = Path.Combine(
+            Path.GetFullPath(pluginFolder),
+            "package.json");
 
         string company = Sanitize(PlayerSettings.companyName);
         if (string.IsNullOrWhiteSpace(company))
