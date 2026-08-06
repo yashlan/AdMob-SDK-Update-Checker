@@ -31,7 +31,7 @@ Install the package directly from GitHub using Unity Package Manager.
 ## Install via Git URL
 
 1. Open **Unity**.
-2. Go to **Window → Package Manager**.
+2. Go to **Window → Package Management → Package Manager**.
 3. Click the **+** button in the top-left corner.
 4. Select **Install package from Git URL...**.
 5. Paste the following URL:
