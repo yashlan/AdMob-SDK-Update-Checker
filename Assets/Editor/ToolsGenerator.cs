@@ -9,7 +9,7 @@ public static class ToolsGenerator
     [MenuItem("Tools/Generate package.json")]
     static void Generate()
     {
-        string pluginFolder = "Assets/Admob SDK Update Checker";
+        string pluginFolder = "Assets/admob-sdk-update-checker";
 
         string packagePath = Path.Combine(
             Path.GetFullPath(pluginFolder),
